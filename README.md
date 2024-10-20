@@ -137,9 +137,3 @@ Fax: +49 7142-78879-18
 Email: info@ave-stuttgart.de
 
 **All rights reserved 2024.**
-
-
-
----
-
-This manual provides the necessary steps to connect and control the AVE Digital Mixer Andante V2.0 remotely via a browser. For any further technical issues, consult the Node-RED flow details or system administrator.
