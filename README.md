@@ -119,6 +119,27 @@ Each output has:
 - The system allows real-time adjustments, meaning changes made via the UI immediately affect the mixer settings.
 - Ensure that the **USB to RS232 converter** is correctly plugged into the Raspberry Pi 4B and that the DB9 connector is securely attached to the Andante mixer’s serial port.
 
+## License
+
+This application is the property of AVE GmbH and all rights are reserved. Unauthorized copying, modification, or distribution of this software is strictly prohibited.
+Contact
+
+For any questions or suggestions, please open an issue on GitHub or contact us at info@ave-stuttgart.de.
+
+## Manufacturer
+
+**AVE GmbH**  
+Gustav-Rau-Str. 6  
+74321 - Bietigheim-Bissingen  
+Deutschland  
+Tel.: +49 7142-78879-0  
+Fax: +49 7142-78879-18  
+Email: info@ave-stuttgart.de
+
+**All rights reserved 2024.**
+
+
+
 ---
 
 This manual provides the necessary steps to connect and control the AVE Digital Mixer Andante V2.0 remotely via a browser. For any further technical issues, consult the Node-RED flow details or system administrator.
