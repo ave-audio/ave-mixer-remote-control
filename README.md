@@ -2,8 +2,10 @@
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4bb24f67-2563-47ce-a207-7d13e6eb489b" alt="Snapshot 1" width="30%" />
-  <img src="photo2.jpg" alt="Snapshot 2" width="30%" />
-  <img src="photo3.jpg" alt="Snapshot 3" width="30%" />
+  <img src="photo2.jpg" alt="Snapshot 2" width="25%" />
+  <img src="photo3.jpg" alt="Snapshot 3" width="25%" />
+  <img src="photo3.jpg" alt="Snapshot 3" width="25%" />
+  <img src="photo3.jpg" alt="Snapshot 3" width="25%" />    
 </p>
 
 This manual provides an overview of the user interface (UI) for controlling the **AVE Digital Mixer Andante V2.0** series via the Node-RED platform running on a Raspberry Pi 4B (RPI 4B).
