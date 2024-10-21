@@ -81,7 +81,7 @@ This section explains how to set up a basic LAN (Local Area Network) using a com
 2. **Inputs Tab** (`INPUTS`)
 
   <p align="center">
-    <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Inputs%20Panel.jpg" alt="Snapshot 2" width="25%" />   
+    <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Inputs%20Panel.jpg" alt="Snapshot 2" width="50%" />   
   </p>
 
    - Manage different audio inputs via sliders and text fields that show percentage levels for each input.
