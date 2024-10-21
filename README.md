@@ -1,5 +1,11 @@
 # AVE Digital Mixer Andante V2.0 Remote Control - User Manual
 
+<p align="center">
+  <img src="photo1.jpg" alt="Snapshot 1" width="30%" />
+  <img src="photo2.jpg" alt="Snapshot 2" width="30%" />
+  <img src="photo3.jpg" alt="Snapshot 3" width="30%" />
+</p>
+
 This manual provides an overview of the user interface (UI) for controlling the **AVE Digital Mixer Andante V2.0** series via the Node-RED platform running on a Raspberry Pi 4B (RPI 4B).
 
 ## Overview
