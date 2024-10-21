@@ -114,6 +114,10 @@ This section explains how to set up a basic LAN (Local Area Network) using a com
 
 ## Main Functional Elements
 
+### Presets
+
+- **Preset Buttons**: Switch between preset configurations using labeled buttons. Each button reflects the preset name and changes its background color to indicate which preset is currently active.
+
 ### Input Control
 
 Each input has the following controls:
@@ -131,10 +135,6 @@ Each output has:
 - **Individual Output Faders**: Adjust the level of each output channel.
 - **Percentage Display**: Shows the current output level in percentage format.
 - **Note**: The system periodically monitors the output levels.
-
-### Presets
-
-- **Preset Buttons**: Switch between preset configurations using labeled buttons. Each button reflects the preset name and changes its background color to indicate which preset is currently active.
 
 ## Additional Notes
 
