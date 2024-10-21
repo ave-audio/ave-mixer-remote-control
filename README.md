@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4bb24f67-2563-47ce-a207-7d13e6eb489b" alt="Snapshot 1" width="30%" />
-  <img src="photo2.jpg" alt="Snapshot 2" width="25%" />
-  <img src="photo3.jpg" alt="Snapshot 3" width="25%" />
+  <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/main/Andante%20Remote%20Control%20-%20Inputs%20Panel.jpg?raw=true" alt="Snapshot 2" width="25%" />
+  <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/4efa298bda572fd49159708298166ecb65978a11/Andante%20Remote%20Control%20V2.0%20-%20Info%20Panel.jpg" alt="Snapshot 3" width="25%" />
   <img src="photo3.jpg" alt="Snapshot 3" width="25%" />
   <img src="photo3.jpg" alt="Snapshot 3" width="25%" />    
 </p>
