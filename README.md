@@ -91,10 +91,16 @@ This section explains how to set up a basic LAN (Local Area Network) using a com
    - Each input has a fader control for volume adjustment and a display of the current percentage level.
 
 3. **Outputs Tab** (`OUTPUTS`)
+  <p align="center">
+    <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Outputs%20Panel.jpg" alt="Snapshot 3" width="75%" />   
+  </p> 
    - Adjust audio outputs, with faders for controlling the master level and individual output levels.
    - Each output has controls similar to the input interface (fader and percentage display).
 
-4. **Info Tab** (`INFO`)
+5. **Info Tab** (`INFO`)
+  <p align="center">
+    <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Info%20Panel.jpg" alt="Snapshot 4" width="75%" />   
+  </p>
    - Provides information about the device, such as the device name, firmware versions (MCU and DSP), and other status-related information.
    - No control elements, only for displaying read-only data.
 
