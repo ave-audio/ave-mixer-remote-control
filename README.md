@@ -78,29 +78,37 @@ This section explains how to set up a basic LAN (Local Area Network) using a com
    <p align="center">
      <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Presets%20Panel.jpg" alt="Snapshot 1" width="75%" />
    </p>
+
    - Switch between different preset configurations using buttons. Each preset button is dynamically labeled with its name.
    - The buttons also change color based on the currently selected preset.
    - **Note**: The remote control system periodically monitors the currently selected preset.
 
-3. **Inputs Tab** (`INPUTS`)
+2. **Inputs Tab** (`INPUTS`)
 
-  <p align="center">
-    <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Inputs%20Panel.jpg" alt="Snapshot 2" width="75%" />   
-  </p>
+   <p align="center">
+     <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Inputs%20Panel.jpg" alt="Snapshot 2" width="75%" />   
+   </p>
+
    - Manage different audio inputs via sliders and text fields that show percentage levels for each input.
    - Each input has a fader control for volume adjustment and a display of the current percentage level.
+   - Each input channel also includes a **switch** to enable or disable the channel, allowing the user to easily control the active status of the input channels.
 
 3. **Outputs Tab** (`OUTPUTS`)
-  <p align="center">
-    <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Outputs%20Panel.jpg" alt="Snapshot 3" width="75%" />   
-  </p> 
+
+   <p align="center">
+     <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Outputs%20Panel.jpg" alt="Snapshot 3" width="75%" />   
+   </p>
+
    - Adjust audio outputs, with faders for controlling the master level and individual output levels.
    - Each output has controls similar to the input interface (fader and percentage display).
+   - Each output channel also includes a **switch** to enable or disable the output channel, giving full control over the active status of each output.
 
-5. **Info Tab** (`INFO`)
-  <p align="center">
-    <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Info%20Panel.jpg" alt="Snapshot 4" width="75%" />   
-  </p>
+4. **Info Tab** (`INFO`)
+
+   <p align="center">
+     <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Info%20Panel.jpg" alt="Snapshot 4" width="75%" />   
+   </p>
+
    - Provides information about the device, such as the device name, firmware versions (MCU and DSP), and other status-related information.
    - No control elements, only for displaying read-only data.
 
