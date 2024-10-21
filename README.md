@@ -1,7 +1,7 @@
 # AVE Digital Mixer Andante V2.0 Remote Control - User Manual
 
 <p align="center">
-  <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Presets%20Panel.jpg" alt="Snapshot 1" width="30%" />
+  <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Presets%20Panel.jpg" alt="Snapshot 1" width="25%" />
   <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Inputs%20Panel.jpg" alt="Snapshot 2" width="25%" />
   <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Outputs%20Panel.jpg" alt="Snapshot 3" width="25%" />
   <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Info%20Panel.jpg" alt="Snapshot 3" width="25%" />    
