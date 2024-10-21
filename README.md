@@ -74,16 +74,19 @@ This section explains how to set up a basic LAN (Local Area Network) using a com
 ## Tabs Overview
 
 1. **Presets Tab** (`PRESETS`)
+   
+   <p align="center">
+     <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Presets%20Panel.jpg" alt="Snapshot 1" width="75%" />
+   </p>
    - Switch between different preset configurations using buttons. Each preset button is dynamically labeled with its name.
    - The buttons also change color based on the currently selected preset.
    - **Note**: The remote control system periodically monitors the currently selected preset.
 
-2. **Inputs Tab** (`INPUTS`)
+3. **Inputs Tab** (`INPUTS`)
 
   <p align="center">
-    <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Inputs%20Panel.jpg" alt="Snapshot 2" width="50%" />   
+    <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Inputs%20Panel.jpg" alt="Snapshot 2" width="75%" />   
   </p>
-
    - Manage different audio inputs via sliders and text fields that show percentage levels for each input.
    - Each input has a fader control for volume adjustment and a display of the current percentage level.
 
