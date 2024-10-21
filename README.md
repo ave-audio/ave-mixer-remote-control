@@ -1,8 +1,7 @@
 # AVE Digital Mixer Andante V2.0 Remote Control - User Manual
 
 <p align="center">
-  <img src="![image](https://github.com/user-attachments/assets/4bb24f67-2563-47ce-a207-7d13e6eb489b)
-" alt="Snapshot 1" width="30%" />
+  <img src="https://github.com/user-attachments/assets/4bb24f67-2563-47ce-a207-7d13e6eb489b" alt="Snapshot 1" width="30%" />
   <img src="photo2.jpg" alt="Snapshot 2" width="30%" />
   <img src="photo3.jpg" alt="Snapshot 3" width="30%" />
 </p>
