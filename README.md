@@ -1,9 +1,5 @@
 # AVE Digital Mixer Andante V2.0 - Remote Control - User Manual
 
-<p align="center">
-  <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/7a6c2350dd967b06446d3150658b27d24e57101b/images/Andante%20Remote%20Control%20V2.0%20-%20Setup%20Diagram.jpg" alt="AVE Mixer Remote Control - Setup Diagram" width="85%" />
-</p>
-
 **AVE Mixer Remote Control** from [AVE GmbH](https://ave-audio.de/en) is a versatile and user-friendly web application designed to manage and control the settings of your AVE Digital Mixer Andante V2.0. This powerful application runs on a Raspberry Pi 4B and is easily accessible via any standard web browser, allowing the mixer’s end-user to seamlessly manage audio configurations.
 
 This manual provides an overview of the user interface (UI) for controlling the **AVE Digital Mixer Andante V2.0** series via the Node-RED platform running on a Raspberry Pi 4B (RPI 4B).
@@ -13,6 +9,10 @@ This manual provides an overview of the user interface (UI) for controlling the 
 The UI is structured into various tabs and sections that allow the user to control the inputs, outputs, and presets of the AVE Digital Mixer Andante V2.0, with specific sliders, buttons, and switches for different parameters. The system also **periodically monitors the input/output levels and the currently selected preset**.
 
 ### System Setup
+
+<p align="center">
+  <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/7a6c2350dd967b06446d3150658b27d24e57101b/images/Andante%20Remote%20Control%20V2.0%20-%20Setup%20Diagram.jpg" alt="AVE Mixer Remote Control - Setup Diagram" width="85%" />
+</p>
 
 - **Platform**: The Node-RED code is pre-installed on a custom image designed to run on a Raspberry Pi 4B.
 - **Hardware Requirements**:
