@@ -10,10 +10,6 @@ The UI is structured into various tabs and sections that allow the user to contr
 
 ### System Setup
 
-<p align="center">
-  <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/7a6c2350dd967b06446d3150658b27d24e57101b/images/Andante%20Remote%20Control%20V2.0%20-%20Setup%20Diagram.jpg" alt="AVE Mixer Remote Control - Setup Diagram" width="85%" />
-</p>
-
 - **Platform**: The Node-RED code is pre-installed on a custom image designed to run on a Raspberry Pi 4B.
 - **Hardware Requirements**:
    - A **USB to RS232 converter** must be connected to one of the USB ports of the Raspberry Pi 4B.
@@ -39,6 +35,10 @@ The Raspberry Pi 4B image can be downloaded from the following Dropbox link:
 This section explains how to set up a basic LAN (Local Area Network) using a common router and connecting your Raspberry Pi 4B to the network via Ethernet.
 
 **Note**: Connecting the Raspberry Pi 4B to the router via Wi-Fi is not recommended. Always use a wired Ethernet connection for stability.
+
+<p align="center">
+  <img src="https://github.com/ave-audio/ave-mixer-remote-control/blob/7a6c2350dd967b06446d3150658b27d24e57101b/images/Andante%20Remote%20Control%20V2.0%20-%20Setup%20Diagram.jpg" alt="AVE Mixer Remote Control - Setup Diagram" width="85%" />
+</p>
 
 ### What You’ll Need
 
