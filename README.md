@@ -15,6 +15,21 @@ The UI is structured into various tabs and sections that allow the user to contr
    - A **USB to RS232 converter** must be connected to one of the USB ports of the Raspberry Pi 4B.
    - The **DB9 connector** of the USB to RS232 cable must be connected to the rear serial port of the **AVE Digital Mixer Andante V2.0** devices.
 
+## Raspberry Pi 4B Image Download
+
+The AVE Mixer Remote Control is distributed as a **preconfigured Raspberry Pi 4B system image**, which already includes:
+
+- Operating system
+- Node-RED runtime
+- Required Node-RED flows
+- All necessary dependencies for Andante V2.0 remote control
+
+### Download Location
+
+The Raspberry Pi 4B image can be downloaded from the following Dropbox link:
+
+[Download the Raspberry Pi 4B system image (Dropbox)](https://www.dropbox.com/scl/fi/ygcqzvo4ys8bq5b24k0k8/mediaAVE_V1.1_08-10-2024.zip?rlkey=hem2p9laiwqhjms1pz432l38j&dl=0)
+
 ## Setting Up a Minimal LAN Network
 
 This section explains how to set up a basic LAN (Local Area Network) using a common router and connecting your Raspberry Pi 4B to the network via Ethernet.
