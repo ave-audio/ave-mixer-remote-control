@@ -44,6 +44,7 @@ This section explains how to set up a basic LAN (Local Area Network) using a com
 
 - **Router + Access Point**: A standard home router with LAN ports.
 - **Raspberry Pi 4B**: Connected to the network via an Ethernet cable.
+- **USB to RS232 Adapter (FTDI chip recommended)**: For reliable serial communication between the Raspberry Pi and the mixer.
 - **AVE Digital Mixer Andante V2.0**: Connected to the Raspberry Pi 4B via the USB to RS232 converter.
 - **Ethernet Cable**: To connect the Raspberry Pi 4B to the router.
 
