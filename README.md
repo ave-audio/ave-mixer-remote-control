@@ -82,35 +82,41 @@ This section explains how to set up a basic LAN (Local Area Network) using a com
 
 ### Step-by-Step Instructions
 
-1. **Connect the Router to Power**
-   - Plug in your router and ensure it is powered on. Most routers have LEDs to confirm connectivity.
+1. **Connect the Router to Power:**
+   - Plug your router into a power outlet and ensure it is switched on. Most routers have LEDs that indicate power and network connectivity.
 
-2. **Set Up the Router’s Network**
-   - You may skip connecting it to the internet. The router only needs to manage a local network.
-   - The router’s built-in DHCP server will assign IP addresses to devices automatically.
+2. **Set Up the Router's Network:**
+   - Connect the router to your modem (if needed) to provide internet access, or simply use it to create a local area network without internet.
+   - The router will automatically assign IP addresses to connected devices using DHCP.
 
-3. **Connect Raspberry Pi 4B via Ethernet**
-   - Use an Ethernet cable to link the Raspberry Pi to a LAN port on the router.
+3. **Connect the Raspberry Pi 4B via Ethernet:**
+   - Connect one end of an Ethernet cable to one of the LAN ports on your router.
+   - Connect the other end of the cable to the Ethernet port on your Raspberry Pi 4B.
+   - The Raspberry Pi will automatically receive an IP address from the router.
 
-4. **Reserve a Fixed IP for the Raspberry Pi 4B**
-   - Use your router’s admin interface (via browser) to find the Raspberry Pi in the connected devices.
-   - Assign it a fixed (static) IP address from the DHCP settings.
+4. **Reserve a Fixed IP Address for the Raspberry Pi 4B:**
+   - It is recommended to reserve a **fixed IP address** for the Raspberry Pi 4B to avoid changes in its IP address when reconnecting to the network.
+   - To do this, access your router’s admin settings (usually done through a web browser by entering the router's IP address, like `192.168.1.1` or `192.168.0.1`).
+   - Look for the **DHCP settings** or **LAN settings** section.
+   - Find the Raspberry Pi 4B listed in the **connected devices** section, and reserve its current IP address as static.
 
-5. **Obtain the IP Address of the Raspberry Pi**
-   - It’s listed in the router’s admin panel under "connected devices".
+5. **Obtain the Raspberry Pi 4B's IP Address:**
+   - To access the user interface, you need to know the IP address assigned to the Raspberry Pi. This IP can usually be found in the router's admin page under "connected devices."
 
-6. **Connect Other Devices (iPad, PC, Mac...) to the Same Network**
-   - Use Wi-Fi or Ethernet to join the same LAN created by the router.
+6. **Connect Other Devices to the Same Network:**
+   - Ensure that any other device (computer, tablet, smartphone) you want to use for accessing the control interface is connected to the same router via LAN or Wi-Fi.
 
-7. **Access the Web Interface**
-   - Open a browser on any connected device and go to:
+7. **Accessing the User Interface:**
+   - Once the Raspberry Pi 4B is connected to the network, open a web browser on any device connected to the same LAN.
+   - In the browser's address bar, enter the following URL:
      ```
      http://<RPI4B_IP_address>:1880/ui
      ```
-     Example:
+     Replace `<RPI4B_IP_address>` with the actual IP address of the Raspberry Pi. For example:
      ```
      http://192.168.1.100:1880/ui
      ```
+   - You will now have access to the remote control UI for the AVE Digital Mixer Andante V2.0.
 
 ## Tabs Overview
 
