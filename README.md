@@ -2,6 +2,8 @@
 
 **AVE Mixer Remote Control** from [AVE GmbH](https://ave-audio.de/en) is a versatile and user-friendly web application designed to manage and control the settings of your AVE Digital Mixer Andante V2.0. This powerful application runs on a Raspberry Pi 4B and is easily accessible via any standard web browser, allowing the mixer’s end-user to seamlessly manage audio configurations.
 
+This manual is intended for **system integrators, installers, and end-users** responsible for configuring and operating AVE Digital Mixer Andante V2.0 systems.
+
 This manual provides an overview of the user interface (UI) for controlling the **AVE Digital Mixer Andante V2.0** series via the Node-RED platform running on a Raspberry Pi 4B (RPI 4B).
 
 ## Main Features
@@ -9,8 +11,7 @@ This manual provides an overview of the user interface (UI) for controlling the 
 - Web-based access (browser-based, no special client required)
 - Access over LAN network
 - Intuitive user interface with sliders, buttons, and switches
-- Real-time control without technical expertise
-- Real-time monitoring and remote control
+- Real-time control and monitoring without requiring technical expertise
 - Input/Output level adjustment
 - Preset selection
 - Channel activation/deactivation
@@ -18,7 +19,8 @@ This manual provides an overview of the user interface (UI) for controlling the 
 - Supports multiple devices simultaneously
 - Very easy to integrate into existing systems
 
-## Typical Applications:
+## Typical Applications
+
 - Conference rooms
 - Multi-zone audio systems
 - Events & installations
@@ -33,7 +35,8 @@ The UI is structured into various tabs and sections that allow the user to contr
 
 - **Router + Access Point**: A standard home router with LAN ports.
 - **Raspberry Pi 4B**: Connected to the network via an Ethernet cable.
-- **USB to RS232 Adapter (FTDI or Prolific chip recommended)**: For reliable serial communication between the Raspberry Pi and the mixer.
+- **USB to RS232 Adapter (FTDI or Prolific chip recommended)**: For reliable serial communication between the Raspberry Pi and the mixer.  
+  ⚠️ Ensure the adapter operates in **RS232 mode**. **RS485 adapters are not compatible** with the Andante V2.0 serial interface.
 - **AVE Digital Mixer Andante V2.0**: Connected to the Raspberry Pi 4B via the USB to RS232 converter.
 - **Ethernet Cable**: To connect the Raspberry Pi 4B to the router.
 
@@ -80,120 +83,94 @@ This section explains how to set up a basic LAN (Local Area Network) using a com
 
 ![AVE Mixer Remote Control - Setup Diagram](https://github.com/ave-audio/ave-mixer-remote-control/blob/7a6c2350dd967b06446d3150658b27d24e57101b/images/Andante%20Remote%20Control%20V2.0%20-%20Setup%20Diagram.jpg)
 
+> *Note: Screenshots and diagrams reflect the UI layout at the time of release and may differ slightly from future software versions.*
+
 ### Step-by-Step Instructions
 
-1. **Connect the Router to Power:**
+1. **Connect the Router to Power**
    - Plug your router into a power outlet and ensure it is switched on. Most routers have LEDs that indicate power and network connectivity.
 
-2. **Set Up the Router's Network:**
+2. **Set Up the Router's Network**
    - Connect the router to your modem (if needed) to provide internet access, or simply use it to create a local area network without internet.
    - The router will automatically assign IP addresses to connected devices using DHCP.
 
-3. **Connect the Raspberry Pi 4B via Ethernet:**
+3. **Connect the Raspberry Pi 4B via Ethernet**
    - Connect one end of an Ethernet cable to one of the LAN ports on your router.
    - Connect the other end of the cable to the Ethernet port on your Raspberry Pi 4B.
    - The Raspberry Pi will automatically receive an IP address from the router.
 
-4. **Reserve a Fixed IP Address for the Raspberry Pi 4B:**
+4. **Reserve a Fixed IP Address for the Raspberry Pi 4B**
    - It is recommended to reserve a **fixed IP address** for the Raspberry Pi 4B to avoid changes in its IP address when reconnecting to the network.
-   - To do this, access your router’s admin settings (usually done through a web browser by entering the router's IP address, like `192.168.1.1` or `192.168.0.1`).
-   - Look for the **DHCP settings** or **LAN settings** section.
-   - Find the Raspberry Pi 4B listed in the **connected devices** section, and reserve its current IP address as static.
+   - Access your router’s admin settings (typically via `192.168.1.1` or `192.168.0.1`).
+   - Locate the **DHCP** or **LAN settings** section and reserve the Raspberry Pi’s IP address.
 
-5. **Obtain the Raspberry Pi 4B's IP Address:**
-   - To access the user interface, you need to know the IP address assigned to the Raspberry Pi. This IP can usually be found in the router's admin page under "connected devices."
+5. **Obtain the Raspberry Pi 4B's IP Address**
+   - The assigned IP address can be found in the router's admin interface under connected devices.
 
-6. **Connect Other Devices to the Same Network:**
-   - Ensure that any other device (computer, tablet, smartphone) you want to use for accessing the control interface is connected to the same router via LAN or Wi-Fi.
+6. **Connect Other Devices to the Same Network**
+   - Ensure that any computer, tablet, or smartphone used to access the UI is connected to the same LAN.
 
-7. **Accessing the User Interface:**
-   - Once the Raspberry Pi 4B is connected to the network, open a web browser on any device connected to the same LAN.
-   - In the browser's address bar, enter the following URL:
+7. **Accessing the User Interface**
+   - Open a web browser and enter:
      ```
      http://<RPI4B_IP_address>:1880/ui
      ```
-     Replace `<RPI4B_IP_address>` with the actual IP address of the Raspberry Pi. For example:
-     ```
-     http://192.168.1.100:1880/ui
-     ```
-   - You will now have access to the remote control UI for the AVE Digital Mixer Andante V2.0.
+     Replace `<RPI4B_IP_address>` with the actual IP address of the Raspberry Pi 4B.
 
 ## Tabs Overview
 
-1. **Presets Tab** (`PRESETS`)
+### Presets Tab (`PRESETS`)
 
-   ![Presets Panel](https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Presets%20Panel.jpg)
+![Presets Panel](https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Presets%20Panel.jpg)
 
-   - Switch between different preset configurations using buttons. Each preset button is dynamically labeled with its name.
-   - The buttons also change color based on the currently selected preset.
-   - **Note**: The remote control system periodically monitors the currently selected preset.
+- Switch between different preset configurations using dynamically labeled buttons.
+- Buttons change color to indicate the currently selected preset.
+- The system periodically monitors the active preset.
 
-2. **Inputs Tab** (`INPUTS`)
+### Inputs Tab (`INPUTS`)
 
-   - Manage different audio inputs via sliders and text fields that show percentage levels for each input.
-   - Each input has a fader control for volume adjustment and a display of the current percentage level.
-   - Each input channel also includes a **switch** to enable or disable the channel, allowing the user to easily control the active status of the input channels.
+- Manage audio inputs using sliders and percentage level indicators.
+- Each input includes a fader and an enable/disable switch.
 
-3. **Outputs Tab** (`OUTPUTS`)
+### Outputs Tab (`OUTPUTS`)
 
-   ![Outputs Panel](https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Outputs%20Panel.jpg)
+![Outputs Panel](https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Outputs%20Panel.jpg)
 
-   - Adjust audio outputs, with faders for controlling the master level and individual output levels.
-   - Each output has controls similar to the input interface (fader and percentage display).
-   - Each output channel also includes a **switch** to enable or disable the output channel, giving full control over the active status of each output.
+- Adjust master and individual output levels using faders.
+- Each output includes a percentage display and enable/disable switch.
 
-4. **Info Tab** (`INFO`)
+### Info Tab (`INFO`)
 
-   ![Info Panel](https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Info%20Panel.jpg)
+![Info Panel](https://github.com/ave-audio/ave-mixer-remote-control/blob/9e37db7ad3867cccc6f01de6082015b047c4b849/images/Andante%20Remote%20Control%20V2.0%20-%20Info%20Panel.jpg)
 
-   - Provides information about the device, such as the device name, firmware versions (MCU and DSP), and other status-related information.
-   - No control elements, only for displaying read-only data.
-
-## Main Functional Elements
-
-### Presets
-
-- **Preset Buttons**: Switch between preset configurations using labeled buttons. Each button reflects the preset name and changes its background color to indicate which preset is currently active.
-
-### Input Control
-
-Each input has the following controls:
-
-- **Fader**: Adjust the volume level from 0 to 140.
-- **Percentage Level**: Shows the current level as a percentage, based on the fader position.
-- **Switch**: Toggle each input between active and inactive states.
-- **Note**: The system periodically monitors the input levels.
-
-### Output Control
-
-Each output has:
-
-- **Master Level Control**: A fader to adjust the global output level.
-- **Individual Output Faders**: Adjust the level of each output channel.
-- **Percentage Display**: Shows the current output level in percentage format.
-- **Note**: The system periodically monitors the output levels.
+- Displays device information such as firmware versions and system status.
+- Read-only section with no control elements.
 
 ## Additional Notes
 
-- The system allows real-time adjustments, meaning changes made via the UI immediately affect the mixer settings.
-- Ensure that the **USB to RS232 converter** is correctly plugged into the Raspberry Pi 4B and that the DB9 connector is securely attached to the Andante mixer’s serial port.
+- All changes made via the UI are applied in real time.
+- Ensure the USB–RS232 adapter is correctly connected and securely attached.
 
 ## License
 
-This application is the property of AVE GmbH and all rights are reserved. Unauthorized copying, modification, or distribution of this software is strictly prohibited.
+This software is the property of **AVE GmbH** and is provided **exclusively for use with AVE Digital Mixer Andante V2.0 products**.  
+All rights are reserved. Unauthorized copying, modification, or distribution of this software is strictly prohibited.
 
 ## Contact
 
-For any questions or suggestions, please open an issue on GitHub or contact us at info@ave-stuttgart.de.
+For questions or suggestions, please open an issue on GitHub or contact:
+
+info@ave-stuttgart.de
 
 ## Manufacturer
 
 **AVE GmbH**  
 Gustav-Rau-Str. 6  
-74321 - Bietigheim-Bissingen  
-Deutschland  
+74321 Bietigheim-Bissingen  
+Germany  
+
 Tel.: +49 7142-78879-0  
 Fax: +49 7142-78879-18  
-Email: info@ave-stuttgart.de
+Email: info@ave-stuttgart.de  
 
 **All rights reserved 2026.**
