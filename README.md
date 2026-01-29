@@ -1,5 +1,9 @@
 # AVE Digital Mixer Andante V2.0 - Remote Control - User Manual
 
+**AVE Mixer Remote Control** from [AVE GmbH](https://ave-audio.de/en) is a versatile and user-friendly web application designed to manage and control the settings of your AVE Digital Mixer Andante V2.0. This powerful application runs on a Raspberry Pi 4B and is easily accessible via any standard web browser, allowing the mixer’s end-user to seamlessly manage audio configurations.
+
+This manual provides an overview of the user interface (UI) for controlling the **AVE Digital Mixer Andante V2.0** series via the Node-RED platform running on a Raspberry Pi 4B (RPI 4B).
+
 ## Main Features
 
 - Web-based access (browser-based, no special client required)
@@ -14,9 +18,12 @@
 - Supports multiple devices simultaneously
 - Very easy to integrate into existing systems
   
-**AVE Mixer Remote Control** from [AVE GmbH](https://ave-audio.de/en) is a versatile and user-friendly web application designed to manage and control the settings of your AVE Digital Mixer Andante V2.0. This powerful application runs on a Raspberry Pi 4B and is easily accessible via any standard web browser, allowing the mixer’s end-user to seamlessly manage audio configurations.
-
-This manual provides an overview of the user interface (UI) for controlling the **AVE Digital Mixer Andante V2.0** series via the Node-RED platform running on a Raspberry Pi 4B (RPI 4B).
+## Typical Applications:
+- Conference rooms
+- Multi-zone audio systems
+- Events & installations
+- Remote support / technical assistance
+- Multimedia productions
 
 ## Overview
 
