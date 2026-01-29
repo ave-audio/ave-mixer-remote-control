@@ -1,26 +1,5 @@
 # AVE Digital Mixer Andante V2.0 - Remote Control - User Manual
 
-## Contents
-
-- [Main Features](#main-features)
-- [Typical Applications](#typical-applications)
-- [Overview & Requirements](#overview--requirements)
-  - [What You’ll Need](#what-youll-need)
-- [System Setup](#system-setup)
-  - [Download the Preconfigured Image](#1-download-the-preconfigured-image)
-  - [Flash the Image to a microSD Card](#2-flash-the-image-to-a-microsd-card)
-  - [Hardware Connections](#3-hardware-connections)
-- [Setting Up a Minimal LAN Network](#setting-up-a-minimal-lan-network)
-- [Tabs Overview](#tabs-overview)
-  - [Presets Tab](#presets-tab-presets)
-  - [Inputs Tab](#inputs-tab-inputs)
-  - [Outputs Tab](#outputs-tab-outputs)
-  - [Info Tab](#info-tab-info)
-- [Additional Notes](#additional-notes)
-- [License](#license)
-- [Contact](#contact)
-- [Manufacturer](#manufacturer)
-
 **AVE Mixer Remote Control** from [AVE GmbH](https://ave-audio.de/en) is a versatile and user-friendly web application designed to manage and control the settings of your AVE Digital Mixer Andante V2.0. This powerful application runs on a Raspberry Pi 4B and is easily accessible via any standard web browser, allowing the mixer’s end-user to seamlessly manage audio configurations.
 
 This manual is intended for **system integrators, installers, and end-users** responsible for configuring and operating AVE Digital Mixer Andante V2.0 systems.
