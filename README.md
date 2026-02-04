@@ -37,6 +37,8 @@ The UI is structured into various tabs and sections that allow the user to contr
 - **Raspberry Pi 4B**: Connected to the network via an Ethernet cable.
 - **USB to RS232 Adapter (FTDI or Prolific chip recommended)**: For reliable serial communication between the Raspberry Pi and the mixer.  
   ⚠️ Ensure the adapter operates in **RS232 mode**. **RS485 adapters are not compatible** with the Andante V2.0 serial interface.
+  *Tested and recommended example:*  
+  [UGREEN USB to Serial Adapter (DB9 Male, PL2303 chipset, 1 m cable)](https://www.ugreen.com/products/usb-to-rs232-serial-adapter) — compatible with **Windows, macOS, and Linux**.
 - **AVE Digital Mixer Andante V2.0**: Connected to the Raspberry Pi 4B via the USB to RS232 converter.
 - **Ethernet Cable**: To connect the Raspberry Pi 4B to the router.
 
