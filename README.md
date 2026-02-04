@@ -39,7 +39,7 @@ The UI is structured into various tabs and sections that allow the user to contr
   ⚠️ Ensure the adapter operates in **RS232 mode**. **RS485 adapters are not compatible** with the Andante V2.0 serial interface.
   
   *Tested and recommended example:*  
-  [UGREEN USB to Serial Adapter (DB9 Male, PL2303 chipset, 1 m cable)](https://amzn.eu/d/06B6Wl4g) — compatible with **Windows, macOS, and Linux**.
+  [UGREEN USB to RS232 Serial Adapter (DB9 Male, PL2303 chipset, 1 m cable)](https://amzn.eu/d/06B6Wl4g) — compatible with **Windows, macOS, and Linux**.
 - **AVE Digital Mixer Andante V2.0**: Connected to the Raspberry Pi 4B via the USB to RS232 converter.
 - **Ethernet Cable**: To connect the Raspberry Pi 4B to the router.
 
